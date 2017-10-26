@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+  <title>Edumonk</title>
+    <link rel="shortcut icon" type="favicon.ico" href="images/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     body,html{
+         background:url('images/background.png') repeat;
+         overflow-x: hidden;
+
+     }
+       a
+       {
+           color:white;
+       }
+       .navbar-brand{padding:4px;}
+       ul.nav> li {
+           padding-top:5px;
+
+        }
+        .info{
+            width:100%;
+            font-size:20px;
+            border-radius:50px;
+        }
+        #label{
+            font-size: 20px;
+            width:100%;
+        }
+        #timer{
+            color:white;
+            padding:50px;
+            margin-left:0px;
+        }
+        #message{
+            color:white;
+        }
+        #mockup{
+            height:530px;
+            width:330px;
+            display:block;
+            margin:0 auto;
+        }
+        footer{
+
+            background-color:black;
+            color:white;
+            width:100%;
+            padding:20px;
+            bottom:0px;
+            position:static;
+            margin-top:35px;
+        }
+        .goal{
+
+            padding:20px;
+
+
+         }
+    </style>
+    <script>
+
+        function resizeIframe(obj) {
+            console.log(obj);
+            console.log(window.innerWidth);
+            if(window.innerWidth<600)
+                obj.style.width = '350px';
+        }
+    </script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106589946-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+
+        gtag('config', 'UA-106589946-1');
+    </script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container">
+        <div class="navbar-header ">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img  src="images/logo.png" height="40px" width="40px"></a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About us<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="our-vision.html">Mission and Team </a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="give-edumonk.html">Give Edumonk</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="programs.html">Overview</a></li>
+                        <li><a href="programs-teach-for-good.html">Teach For Good</a></li>
+                        <li><a href="programs-campaign-for-good.html">Campaign For Good</a></li>
+                        <li><a href="programs-tech-for-good.html">Tech For Good</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="social.html">Social</a></li>
+                <li><a href="http://www.edumonk.club">Blogs</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+</nav>
+
+
+
+<div class="row">
+    <div class="col-lg-10 col-lg-offset-1" style="border:0px grey solid">
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1  ">
+                <!--<div>-->
+                <!--<span class="btn btn-danger info" >EduMonk App<img height="40px" width="40px" src="logo.png"></span>-->
+                <!--</div>-->
+                <div class="mockups" style="width:100%">
+                    <img id="mockup" src="images/final%20screen.png">
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-lg-offset-0 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1" id="message">
+                <div class="row">
+
+                        <br><br>
+                        <img style="display:block;margin:0 auto" src="images/logo.png">
+                        <h4 class="goal text-center" style="font-weight:lighter;">
+                            EduMonk is one of the best platform to apply for all the eligible scholarships and to create a custom one according to your mind.Our platform caters different Educators,Motivators & Investors to help you succeed and fullfill your dreams.</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 col-lg-offset-0 col-xs-8 col-xs-offset-0">
+                <br><br>
+                <span class="text-center" id="timer">
+                    <a href="https://play.google.com/store/apps/details?id=org.edumonk.edumonk&hl=en">
+                        <img src="images/google-play-icon.png" width="240px" height="80px"></a></span><br><br><br>
+                <div>
+                    <h3 style="color:white;margin-left:20px" class="text-center"> Watch Video</h3>
+                     <iframe style="border:1px solid red" width="400" height="260" onload="resizeIframe(this)" src="https://www.youtube.com/embed/42ez0hm6bcg" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+    <footer class="text-center">
+        <h5> Copyright &#169; at EduMonk Foundation
+            <a href="https://www.facebook.com/edumonkfoundation/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UC5Q6kbXwwZ79aydaoe80R2Q"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/edumonk_/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/Edumonk_"><i class="fa fa-twitter"></i></a>
+        </h5>
+        <p>B-64, Sector 2,Noida,Uttar Pradesh 201301 | 9643754311 support@edumonk.org
+            <a style="background-color:white;color:black" href="privacy-policy.html">Privacy Policy </a>
+            &nbsp <a href="terms-condition.html" style="background-color:white;color:black">Terms & Conditions</a> </p>
+    </footer>
+
+
+<script>
+
+    var mockupArray=["images/final screen.png","images/scholarship.png","images/profile.png","images/videos.png"];
+    var i=0;
+    setInterval(function(){
+        if(i>=4){
+            i=0;
+        }
+        var mockupImage=document.getElementById("mockup");
+        mockupImage.setAttribute("src",mockupArray[i]);
+        i++;
+    },1000);
+</script>
+</body>
+</html>
